@@ -1,15 +1,10 @@
 .header{
-  display: inline-flex;
+  display: flex;
   color: grey;
   width: 100%;
   background-color: #474e5d;
 }
-#who{
-  padding-left: 800px;
-}
-#what{
-  padding-left: 20px;
-}
-#where{
-  padding-left: 20px;
+.page-links{
+  display: flex;
+  justify-content: flex-end;
 }
